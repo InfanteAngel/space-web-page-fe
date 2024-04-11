@@ -423,6 +423,7 @@ body {
   padding-top: 2vh;
   gap: 15vw;
   justify-content: center;
+
 }
 
 .nav {
@@ -480,6 +481,10 @@ body {
   animation: reveal 2s forwards;
 }
 
+.image-wrap{
+  width: 24vw;
+}
+
 /* Crew Page */
 
 .main-content-crew {
@@ -499,6 +504,8 @@ body {
   gap: 0;
   margin-inline: auto;
   justify-content: center;
+  outline: 2px solid green;
+
 }
 
 .crewInfo-box {
@@ -508,7 +515,6 @@ body {
 
 .image-box-crew img {
   width: 100%;
-  height: inherit;
   overflow: hidden;
   animation: reveal 1s forwards;
 }
@@ -523,16 +529,17 @@ body {
 
 #image-box-mark {
   width: 100%;
+  margin-top: 4.2vw;
 }
 
 #image-box-victor {
   width: 100%;
-  margin-top: 11vh;
+  margin-top: 4vw;
 }
 
 #image-box-ansari {
   width: 100%;
-  margin-top: 19vh;
+  margin-top: 8.8vw;
 }
 
 .title-crew {
@@ -831,6 +838,8 @@ body {
     display: none;
   }
 
+
+
   /* Home Section */
 
   .container {
@@ -877,7 +886,7 @@ body {
   }
 
   .image-section {
-    width: 38vw;
+    min-width: 38vw;
   }
 
   .image-wrap {
@@ -885,6 +894,8 @@ body {
     align-items: center;
     justify-content: center;
     margin-left: 22vw;
+    min-width: 38vw;
+    min-height: 38vw;
   }
 
   .title,
@@ -1197,6 +1208,7 @@ body {
 
   .image-wrap {
     margin: 0;
+
   }
 
   .grid-info {
